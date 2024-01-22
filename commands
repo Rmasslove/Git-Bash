@@ -59,4 +59,4 @@ git commit -m "Имя коммита"
 git remote add origin <REMOTE_URL> (смотреть на сайте GitHub)
 
 Отправить изменения (коммит) в репозиторий на GitHub.
-git push -u origin main "main название метки"
+git push -u origin main "main название ветки"
