@@ -60,3 +60,17 @@ git remote add origin <REMOTE_URL> (смотреть на сайте GitHub)
 
 Отправить изменения (коммит) в репозиторий на GitHub.
 git push -u origin main "main название ветки"
+
+
+git clone https://github.com/Turell7/market.git - склонировали приложение на локальную машину
+git checkout dev - перешли в ветвь разработки
+git checkout -b feat-example - создаете ветвь для работы с фичей(задачей), вместо example подставляете краткое название фичи
+git add . - фиксируете изменения
+git commit -m "add features" Делаете коммит
+git checkout dev - переходите в ветку dev
+git pull - обновляем локальную ветвь dev до актуальной версии
+git checkout feat-example перходим в ветвь с фичей
+git merge dev - делаем слияние с ветвью dev
+Исправляем конфликто, если он есть
+git push --set-upstream origin feat-example - пуште ветвь на Github
+Если фича закончена, на сайте GitHub отпраляете запрос на pull request в ветвь dev
