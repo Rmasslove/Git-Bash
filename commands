@@ -79,3 +79,6 @@ git push --set-upstream origin feat-example - пуште ветвь на Github
 запуск для С
 gcc -Wall -Werror -Wextra hello.c
 ./a.out
+или
+gcc -Wall -Werror -Wextra hello.c -o hello
+./hello
