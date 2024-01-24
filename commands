@@ -74,3 +74,8 @@ git merge dev - делаем слияние с ветвью dev
 Исправляем конфликто, если он есть
 git push --set-upstream origin feat-example - пуште ветвь на Github
 Если фича закончена, на сайте GitHub отпраляете запрос на pull request в ветвь dev
+
+
+запуск для С
+gcc -Wall -Werror -Wextra hello.c
+./a.out
